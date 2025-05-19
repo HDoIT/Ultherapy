@@ -1893,9 +1893,12 @@
             #BUTTON4,
             #BUTTON5,
             #GROUP80,
+            #GROUP801,
             #GROUP81,
             #GROUP82,
-            #GROUP83 {
+            #GROUP83,
+            #GROUP191,
+            #GROUP192 {
                 opacity: 0 !important;
                 pointer-events: none !important;
             }
@@ -2025,6 +2028,7 @@
         #BOX13>.ladi-box,
         #BOX14>.ladi-box,
         #SECTION18>.ladi-section-background,
+        #SECTION20>.ladi-section-background,
         #FORM2 .ladi-form-item-background,
         #BUTTON3>.ladi-button>.ladi-button-background {
             -webkit-background-clip: initial;
@@ -2072,6 +2076,8 @@
         #HEADLINE11>.ladi-headline:hover,
         #CAROUSEL_ITEM41>.ladi-frame:hover,
         #CAROUSEL_ITEM41>.ladi-frame:hover~.ladi-frame-bg,
+        #CAROUSEL_ITEM42>.ladi-frame:hover,
+        #CAROUSEL_ITEM42>.ladi-frame:hover~.ladi-frame-bg,
         #IMAGE133:hover>.ladi-image,
         #HEADLINE161>.ladi-headline:hover,
         #HEADLINE167>.ladi-headline:hover,
@@ -2454,7 +2460,8 @@
         }
 
         #GROUP57,
-        #GROUP58 {
+        #GROUP58,
+        #GROUP581 {
             top: auto;
         }
 
@@ -2508,7 +2515,8 @@
         }
 
         #HEADLINE148,
-        #HEADLINE149 {
+        #HEADLINE149,
+        #HEADLINE1491 {
             width: 150px;
         }
 
@@ -2518,7 +2526,8 @@
         }
 
         #HEADLINE148>.ladi-headline,
-        #HEADLINE149>.ladi-headline {
+        #HEADLINE149>.ladi-headline,
+        #HEADLINE1491>.ladi-headline {
             font-family: "Open Sans", sans-serif;
             font-size: 16px;
             line-height: 1.6;
@@ -2526,6 +2535,14 @@
         }
 
         #GROUP58 {
+            width: 209px;
+            height: 50px;
+            right: auto;
+            position: fixed;
+            z-index: 90000050;
+        }
+
+        #GROUP581 {
             width: 209px;
             height: 50px;
             right: auto;
@@ -2571,6 +2588,11 @@
         }
 
         #HEADLINE149 {
+            top: 13px;
+            left: 59px;
+        }
+
+        #HEADLINE1491 {
             top: 13px;
             left: 59px;
         }
@@ -2662,6 +2684,7 @@
         #CAROUSEL_ITEM2,
         #CAROUSEL_ITEM3,
         #CAROUSEL_ITEM41,
+        #CAROUSEL_ITEM42,
         #BOX28,
         #BOX29,
         #BOX30,
@@ -2785,7 +2808,8 @@
         #CAROUSEL_ITEM1>.ladi-frame-bg>.ladi-frame-background,
         #CAROUSEL_ITEM2>.ladi-frame-bg>.ladi-frame-background,
         #CAROUSEL_ITEM3>.ladi-frame-bg>.ladi-frame-background,
-        #CAROUSEL_ITEM41>.ladi-frame-bg>.ladi-frame-background {
+        #CAROUSEL_ITEM41>.ladi-frame-bg>.ladi-frame-background,
+        #CAROUSEL_ITEM42>.ladi-frame-bg>.ladi-frame-background {
             background-color: rgba(244, 244, 244, 0);
         }
 
@@ -3310,6 +3334,16 @@
         }
 
         #SECTION18>.ladi-section-background {
+            background-image: url('/images/8773611-scaled-1.jpg');
+            background-color: initial;
+            background-size: initial;
+            background-origin: initial;
+            background-position: initial;
+            background-repeat: initial;
+            background-attachment: initial;
+        }
+
+        #SECTION20>.ladi-section-background {
             background-image: linear-gradient(rgb(255, 228, 206), rgb(255, 247, 239));
             background-color: initial;
             background-size: initial;
@@ -3623,7 +3657,7 @@
 
         #PARAGRAPH32,
         #PARAGRAPH34 {
-            top: 38px;
+            top: 63px;
             left: 0px;
         }
 
@@ -3755,16 +3789,21 @@
             }
 
             #GROUP57,
-            #GROUP58 {
+            #GROUP58,
+            #GROUP581 {
                 left: 30px;
             }
 
             #GROUP57 {
                 right: auto;
-                bottom: 90px;
+                bottom: 160px;
             }
 
             #GROUP58 {
+                bottom: 95px;
+            }
+
+            #GROUP581 {
                 bottom: 30px;
             }
 
@@ -3867,7 +3906,7 @@
             }
 
             #IMAGE4 {
-                top: 97.878px;
+                top: -27.122px;
                 left: 214.596px;
             }
 
@@ -4030,14 +4069,14 @@
             #HEADLINE16>.ladi-headline,
             #HEADLINE17>.ladi-headline,
             #HEADLINE147>.ladi-headline {
-                font-size: 50px;
+                font-size: 49px;
             }
 
             #CAROUSEL1 {
-                width: 1258px;
-                height: 474px;
+                width: 1589px;
+                height: 503px;
                 top: 185.868px;
-                left: -35.001px;
+                left: -190.001px;
             }
 
             #CAROUSEL1 .ladi-carousel .ladi-carousel-content {
@@ -4047,9 +4086,10 @@
             #CAROUSEL_ITEM1,
             #CAROUSEL_ITEM2,
             #CAROUSEL_ITEM3,
-            #CAROUSEL_ITEM41 {
+            #CAROUSEL_ITEM41,
+            #CAROUSEL_ITEM42 {
                 width: 313px;
-                height: 474px;
+                height: 507px;
             }
 
             #IMAGE12,
@@ -4130,13 +4170,17 @@
                 left: 945px;
             }
 
+            #CAROUSEL_ITEM42 {
+                left: 1260px;
+            }
+
             #IMAGE133>.ladi-image>.ladi-image-background {
                 left: -12px;
                 background-image: url("https://w.ladicdn.com/s650x650/5cd0fc8bc2076e52d0838a2a/ghghghh-20250312032936-tleu2.jpg");
             }
 
             #SECTION5 {
-                height: 628.7px;
+                height: 722.7px;
             }
 
             #SECTION5>.ladi-section-background {
@@ -4156,7 +4200,7 @@
             #GROUP81 {
                 width: 578.139px;
                 height: 98.004px;
-                top: 288.67px;
+                top: 268.67px;
                 left: 621.861px;
             }
 
@@ -4164,10 +4208,13 @@
             #GROUP82.ladi-animation>.ladi-group,
             #GROUP83.ladi-animation>.ladi-group,
             #GROUP80.ladi-animation>.ladi-group,
+            #GROUP801.ladi-animation>.ladi-group,
             #GROUP15.ladi-animation>.ladi-group,
             #GROUP17.ladi-animation>.ladi-group,
             #GROUP18.ladi-animation>.ladi-group,
-            #GROUP19.ladi-animation>.ladi-group {
+            #GROUP19.ladi-animation>.ladi-group,
+            #GROUP191.ladi-animation>.ladi-group,
+            #GROUP192.ladi-animation>.ladi-group {
                 animation-name: fadeInDown;
                 animation-delay: 0s;
                 animation-duration: 1s;
@@ -4204,7 +4251,7 @@
             #HEADLINE76>.ladi-headline,
             #HEADLINE77>.ladi-headline,
             #HEADLINE78>.ladi-headline {
-                font-size: 18px;
+                font-size: 17px;
             }
 
             #SHAPE21,
@@ -4245,13 +4292,13 @@
             }
 
             #GROUP83 {
-                top: 473.678px;
+                top: 512.678px;
                 left: 621.861px;
             }
 
             #IMAGE137 {
                 width: 799.616px;
-                height: 507.092px;
+                height: 585.092px;
                 top: 137.122px;
                 left: -137.616px;
             }
@@ -4265,7 +4312,14 @@
             #GROUP80 {
                 width: 578.139px;
                 height: 109.004px;
-                top: 179.666px;
+                top: 145.666px;
+                left: 621.861px;
+            }
+
+            #GROUP801 {
+                width: 578.139px;
+                height: 109.004px;
+                top: 608.666px;
                 left: 621.861px;
             }
 
@@ -4295,9 +4349,9 @@
 
             #IMAGE20>.ladi-image>.ladi-image-background,
             #IMAGE25>.ladi-image>.ladi-image-background {
-                width: 322.467px;
-                height: 348.636px;
-                top: -84.3785px;
+                width: 482.467px;
+                height: 261.636px;
+                top: -46.3785px;
                 left: 93.3514px;
                 background-image: url("/images/title\ \(1\).png");
             }
@@ -4311,7 +4365,7 @@
             #IMAGE21 {
                 width: 311.818px;
                 height: 503.823px;
-                top: 272.31px;
+                top: 398.674px;
                 left: 128.5px;
             }
 
@@ -4462,9 +4516,9 @@
 
             #IMAGE34>.ladi-image>.ladi-image-background {
                 width: 430.243px;
-        height: 256.813px;
-        top: -142.714px;
-        left: 32.0271px;
+                height: 237.813px;
+                top: -37.714px;
+                left: 32.0271px;
             }
 
             #IMAGE34>.ladi-image>.ladi-image-background,
@@ -4488,7 +4542,7 @@
             }
 
             #HEADLINE35 {
-                top: 270.745px;
+                top: 258.745px;
                 left: 0px;
             }
 
@@ -4664,7 +4718,7 @@
 
             #HEADLINE50>.ladi-headline,
             #HEADLINE74>.ladi-headline {
-                font-size: 40px;
+                font-size: 38px;
             }
 
             #IMAGE44 {
@@ -4676,9 +4730,9 @@
 
             #IMAGE44>.ladi-image>.ladi-image-background {
                 width: 375.738px;
-        height: 228.445px;
-        top: -134.0629px;
-        left: 27.9698px;
+                height: 202.445px;
+                top: -30.0629px;
+                left: 27.9698px;
             }
 
             #IMAGE44>.ladi-image>.ladi-image-background,
@@ -4992,8 +5046,8 @@
 
             #IMAGE29>.ladi-image>.ladi-image-background {
                 width: 357.672px;
-                height: 224.644px;
-                top: -119.5693px;
+                height: 209.644px;
+                top: -34.5693px;
                 left: 53.4115px;
             }
 
@@ -5168,7 +5222,7 @@
             }
 
             #SECTION15 {
-                height: 649.265px;
+                height: 790.265px;
             }
 
             #SECTION15>.ladi-section-background {
@@ -5201,14 +5255,16 @@
             }
 
             #HEADLINE80>.ladi-headline {
-                font-size: 41px;
+                font-size: 36px;
                 line-height: 1.6;
             }
 
             #GROUP15,
             #GROUP17,
             #GROUP18,
-            #GROUP19 {
+            #GROUP19,
+            #GROUP191,
+            #GROUP192 {
                 width: 542.279px;
                 height: 93.004px;
             }
@@ -5223,7 +5279,7 @@
             #BOX13,
             #BOX14 {
                 width: 518.276px;
-                height: 93.004px;
+                height: 107.004px;
             }
 
             #PARAGRAPH11,
@@ -5262,6 +5318,16 @@
 
             #GROUP19 {
                 top: 449.912px;
+                left: 656.492px;
+            }
+
+            #GROUP191 {
+                top: 546.912px;
+                left: 656.492px;
+            }
+
+            #GROUP192 {
+                top: 643.912px;
                 left: 656.492px;
             }
 
@@ -5620,6 +5686,10 @@
             }
 
             #SECTION18 {
+                height: 673px;
+            }
+
+            #SECTION20 {
                 height: 673px;
             }
 
@@ -6026,8 +6096,8 @@
 
             #IMAGE93>.ladi-image>.ladi-image-background {
                 width: 328.478px;
-                height: 370.327px;
-                top: -109.5874px;
+                height: 194.327px;
+                top: -19.5874px;
                 left: 82.7891px;
             }
 
@@ -6128,7 +6198,7 @@
             }
 
             #SECTION23 {
-                height: 294.933px;
+                height: 400.933px;
             }
 
             #BOX18 {
@@ -6140,14 +6210,14 @@
 
             #IMAGE87 {
                 width: 263.843px;
-        height: 122.858px;
-        top: 26.051px;
-        left: 180.042px;
+                height: 122.858px;
+                top: 26.051px;
+                left: 180.042px;
             }
 
             #IMAGE87>.ladi-image>.ladi-image-background {
                 width: 111.843px;
-        height: 112.757px;
+                height: 112.757px;
                 background-image: url("/images/logo\ \(1\).png");
             }
 
@@ -6243,6 +6313,11 @@
                 bottom: 10px;
             }
 
+            #GROUP581 {
+                left: 10px;
+                bottom: 10px;
+            }
+
             #SECTION2 {
                 height: 797.36px;
             }
@@ -6316,10 +6391,10 @@
             }
 
             #IMAGE1>.ladi-image>.ladi-image-background {
-                width: 249.18px;
-                height: 160.211px;
-                top: -36.0779px;
-                left: -2.68746px;
+                width: 287.18px;
+                height: 145.211px;
+                top: 6.9221px;
+                left: -21.68746px;
             }
 
             #IMAGE1>.ladi-image>.ladi-image-background,
@@ -6500,7 +6575,8 @@
             #CAROUSEL_ITEM1,
             #CAROUSEL_ITEM2,
             #CAROUSEL_ITEM3,
-            #CAROUSEL_ITEM41 {
+            #CAROUSEL_ITEM41,
+            #CAROUSEL_ITEM42 {
                 width: 350px;
                 height: 421px;
             }
@@ -6575,6 +6651,10 @@
                 left: 1056px;
             }
 
+            #CAROUSEL_ITEM42 {
+                left: 1406px;
+            }
+
             #IMAGE133>.ladi-image>.ladi-image-background {
                 width: 437.501px;
                 height: 319.811px;
@@ -6583,7 +6663,7 @@
             }
 
             #SECTION5 {
-                height: 741.466px;
+                height: 1000.466px
             }
 
             #SECTION5>.ladi-section-background {
@@ -6603,7 +6683,7 @@
             #GROUP81 {
                 width: 420.489px;
                 height: 97.6884px;
-                top: 473.356px;
+                top: 506.356px;
                 left: -0.2446px;
             }
 
@@ -6676,7 +6756,7 @@
             }
 
             #GROUP82 {
-                top: 569.045px;
+                top: 629.045px;
                 left: 0px;
             }
 
@@ -6684,11 +6764,11 @@
             #BOX30,
             #BOX13 {
                 width: 401.877px;
-                height: 76.6884px;
+                height: 92.6884px;
             }
 
             #GROUP83 {
-                top: 641.733px;
+                top: 712.733px;
                 left: -0.2446px;
             }
 
@@ -6714,6 +6794,13 @@
                 left: -0.2446px;
             }
 
+            #GROUP801 {
+                width: 420.489px;
+                height: 94.6884px;
+                top: 821.668px;
+                left: -0.2446px;
+            }
+
             #BOX27 {
                 width: 401.877px;
                 height: 94.6884px;
@@ -6736,9 +6823,9 @@
 
             #IMAGE20>.ladi-image>.ladi-image-background {
                 width: 245.189px;
-        height: 155.062px;
-        top: -88.0742px;
-        left: 54.7757px;
+                height: 140.062px;
+                top: -25.0742px;
+                left: 54.7757px;
             }
 
             #HEADLINE16 {
@@ -6747,7 +6834,7 @@
             }
 
             #HEADLINE16>.ladi-headline {
-                font-size: 33px;
+                font-size: 22px;
             }
 
             #IMAGE21 {
@@ -6893,9 +6980,9 @@
 
             #IMAGE34>.ladi-image>.ladi-image-background {
                 width: 264.072px;
-        height: 167.281px;
-        top: -94.9496px;
-        left: 73.1446px;
+                height: 151.281px;
+                top: -24.9496px;
+                left: 73.1446px;
             }
 
             #IMAGE34>.ladi-image>.ladi-image-background,
@@ -7109,7 +7196,7 @@
             }
 
             #SECTION11 {
-                height: 761.906px;
+                height: 793.906px;
             }
 
             #SECTION11>.ladi-section-background {
@@ -7137,20 +7224,20 @@
 
             #IMAGE44 {
                 width: 400px;
-                height: 70.9059px;
+                height: 102.9059px;
                 top: 71px;
                 left: 10px;
             }
 
             #IMAGE44>.ladi-image>.ladi-image-background {
                 width: 243.639px;
-        height: 152.271px;
-        top: -88.714px;
-        left: 75.115px;
+                height: 126.271px;
+                top: 5.286px;
+                left: 75.115px;
             }
 
             #HEADLINE51 {
-                top: 141.906px;
+                top: 166.906px;
                 left: 11.25px;
             }
 
@@ -7170,7 +7257,7 @@
             }
 
             #CAROUSEL22 {
-                top: 178.906px;
+                top: 210.906px;
                 left: 11.25px;
             }
 
@@ -7371,7 +7458,7 @@
 
             #CAROUSEL_ITEM5 {
                 left: 95px;
-        top: 32px;
+                top: 32px;
             }
 
             #IMAGE27>.ladi-image>.ladi-image-background {
@@ -7399,9 +7486,9 @@
 
             #IMAGE25>.ladi-image>.ladi-image-background {
                 width: 277.639px;
-        height: 170.539px;
-        top: -105.0561px;
-        left: 37.1471px;
+                height: 149.539px;
+                top: -26.0561px;
+                left: 37.1471px;
             }
 
             #HEADLINE17 {
@@ -7621,7 +7708,7 @@
             }
 
             #SECTION15 {
-                height: 722.919px;
+                height: 1023.919px;
             }
 
             #SECTION15>.ladi-section-background {
@@ -7650,20 +7737,20 @@
 
             #HEADLINE80>.ladi-headline,
             #HEADLINE81>.ladi-headline {
-                font-size: 24px;
+                font-size: 19px;
                 line-height: 1.4;
             }
 
             #GROUP15 {
                 width: 420.489px;
                 height: 71.6884px;
-                top: 478.096px;
+                top: 497.096px;
                 left: -0.2445px;
             }
 
             #BOX10 {
                 width: 401.877px;
-                height: 71.6884px;
+                height: 87.6884px;
             }
 
             #PARAGRAPH11 {
@@ -7674,7 +7761,7 @@
             #GROUP17 {
                 width: 420.489px;
                 height: 87.6884px;
-                top: 549.786px;
+                top: 586.786px;
                 left: -0.0046px;
             }
 
@@ -7702,13 +7789,23 @@
             #GROUP19 {
                 width: 420.489px;
                 height: 68.6884px;
-                top: 637.474px;
+                top: 685.474px;
                 left: 0.24px;
+            }
+
+            #GROUP191 {
+                top: 871.912px;
+                left: 0px;
+            }
+
+            #GROUP192 {
+                top: 775.912px;
+                left: 0px;
             }
 
             #BOX14 {
                 width: 401.877px;
-                height: 68.6884px;
+                height: 85.6884px;
             }
 
             #SECTION16 {
@@ -8072,17 +8169,17 @@
 
             #HEADLINE92 {
                 width: 418px;
-                top: 10px;
+                top: -5px;
                 left: 1px;
             }
 
             #HEADLINE92>.ladi-headline {
-                font-size: 31px;
+                font-size: 24px;
                 line-height: 1.3;
             }
 
             #HEADLINE94 {
-                top: 50.787px;
+                top: 60.787px;
                 left: 0px;
             }
 
@@ -8092,6 +8189,10 @@
             }
 
             #SECTION18 {
+                height: 1315.89px;
+            }
+
+            #SECTION20 {
                 height: 815.89px;
             }
 
@@ -8136,6 +8237,10 @@
             #CAROUSEL42 .ladi-carousel .ladi-carousel-content,
             #CAROUSEL47 .ladi-carousel .ladi-carousel-content {
                 width: 2410px;
+            }
+
+            #CAROUSEL38 .ladi-carousel .ladi-carousel-content {
+                width: 1410px;
             }
 
             #CAROUSEL_ITEM50,
@@ -8465,7 +8570,7 @@
 
             #IMAGE93 {
                 width: 293.846px;
-                height: 138.964px;
+                height: 159.964px;
                 top: -30.438px;
                 left: 64.078px;
             }
@@ -8473,8 +8578,8 @@
             #IMAGE93>.ladi-image>.ladi-image-background {
                 width: 254.996px;
                 height: 158.39px;
-                top: -20.1736px;
-                left: 18.7877px;
+                top: 42.8264px;
+                left: 2.7877px;
             }
 
             #HEADLINE105 {
@@ -8675,20 +8780,64 @@
             background-image: none !important;
         }
     </style>
+    <style>
+        .grid-12 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 16px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            /* background-size: cover; */
+            background-size: contain;
+            background-position: center center;
+            height: 100px;
+            border-radius: 10px;
+            position: relative;
+            background-image: url('/images/logo.png');
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+        }
+
+        .highlight {
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+
+            .grid-12,
+            .grid-4 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11022686482"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date()); gtag("config", "AW-11022686482", { allow_enhanced_conversions: true });</script>
     <script>!function (e, t, r, n, c) { if (!e.ztrq) { c = e.ztrq = function () { c.queue ? c.queue.push(arguments) : c.call(c, arguments) }, e._ztrk || (e._ztrk = c), c.queue = []; var u = t.createElement(r); u.async = !0, u.src = n; var a = t.getElementsByTagName(r)[0]; a.parentNode.insertBefore(u, a) } }(window, document, "script", "https://s.zzcdn.me/ztr/ztracker.js?id=7056840457216708608"); window.LadiPageZaloAds = { auto_tracking: true }; ztrq("track", "ViewContent");</script>
     <!-- Google tag (gtag.js) -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-17T74QVBV4"></script>
+    <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-17T74QVBV4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-17T74QVBV4');
-    </script>
+    </script> -->
     <!-- Histats.com  START  (aync)-->
-    <script type="text/javascript">var _Hasync = _Hasync || [];
+    <!-- <script type="text/javascript">var _Hasync = _Hasync || [];
         _Hasync.push(['Histats.start', '1,4941233,4,0,0,0,00010000']);
         _Hasync.push(['Histats.fasi', '1']);
         _Hasync.push(['Histats.track_hits', '']);
@@ -8698,7 +8847,7 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();</script>
     <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4941233&101" alt=""
-                border="0"></a></noscript>
+                border="0"></a></noscript> -->
     <!-- Histats.com  END  -->
 </head>
 
@@ -8722,10 +8871,10 @@
     <div class="ladi-wraper">
         <div id="SECTION4" class='ladi-section'>
             <div class='ladi-section-background'></div>
-            <div class="ladi-container" >
-                <a href="https://m.me/602644072935810" target="_blank" id="BUTTON2"
-                    class='ladi-element'  style="top: 20px;">
-                    <div class='ladi-button ladi-transition' >
+            <div class="ladi-container">
+                <a href="https://m.me/714006396075689" target="_blank" id="BUTTON2" class='ladi-element'
+                    style="top: 20px;">
+                    <div class='ladi-button ladi-transition'>
                         <div class="ladi-button-background"></div>
                         <div id="BUTTON_TEXT2" class='ladi-element ladi-button-headline'>
                             <p class='ladi-headline ladi-transition'>ĐĂNG KÝ NGAY</p>
@@ -8743,7 +8892,7 @@
                     </div>
                 </div>
                 <div data-action="true" id="GROUP57" class='ladi-element'>
-                    <div class='ladi-group'><a href="https://m.me/602644072935810" target="_blank" id="BOX23"
+                    <div class='ladi-group'><a href="https://m.me/714006396075689" target="_blank" id="BOX23"
                             class='ladi-element'>
                             <div class='ladi-box'></div>
                         </a>
@@ -8756,14 +8905,16 @@
                     </div>
                 </div>
                 <div data-action="true" id="GROUP58" class='ladi-element'>
-                    <div class='ladi-group'><a href="tel:0902308888" id="BOX25" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <a href="tel:0968191517" id="BOX25" class='ladi-element'>
                             <div class='ladi-box'></div>
                         </a>
                         <div data-action="true" id="GROUP59" class='ladi-element'>
                             <div class='ladi-group'>
                                 <div id="BOX26" class='ladi-element'>
                                     <div class='ladi-box'></div>
-                                </div><a href="tel:0902308888" id="SHAPE19" class='ladi-element'>
+                                </div>
+                                <a href="tel:0968191517" id="SHAPE19" class='ladi-element'>
                                     <div class='ladi-shape'><svg xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
                                             viewBox="0 0 100 100" enable-background="new 0 0 100 100"
@@ -8775,9 +8926,42 @@
                                         </svg></div>
                                 </a>
                             </div>
-                        </div><a href="tel:09xxxxxxx" id="HEADLINE149" class='ladi-element'>
-                            <h3 class='ladi-headline'>09xxxxxxxx</h3>
+                        </div><a href="tel:0968191517" id="HEADLINE149" class='ladi-element'>
+                            <h3 class='ladi-headline'>0968 19 15 17</h3>
                         </a>
+                        <!-- <a href="tel:0902777269" id="HEADLINE1491" class='ladi-element'>
+                            <h3 class='ladi-headline'>0902 777 269</h3>
+                        </a> -->
+                    </div>
+                </div>
+                <div data-action="true" id="GROUP581" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <a href="tel:0902777269" id="BOX25" class='ladi-element'>
+                            <div class='ladi-box'></div>
+                        </a>
+                        <div data-action="true" id="GROUP59" class='ladi-element'>
+                            <div class='ladi-group'>
+                                <div id="BOX26" class='ladi-element'>
+                                    <div class='ladi-box'></div>
+                                </div>
+                                <a href="tel:0902777269" id="SHAPE19" class='ladi-element'>
+                                    <div class='ladi-shape'><svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
+                                            viewBox="0 0 100 100" enable-background="new 0 0 100 100"
+                                            xml:space="preserve" preserveAspectRatio="none" width="100%" height="100%"
+                                            class="" fill="rgba(145, 109, 60, 1.0)">
+                                            <path
+                                                d="M94.077,80.619C88.979,92.841,77.026,94.983,73.12,94.983c-1.147,0-19.01,0.947-44.688-23.41  C7.767,51.971,5.242,30.892,5.022,26.887C4.808,22.986,5.925,13.2,19.387,5.929c1.668-0.901,4.975-1.3,5.829-0.446  c0.379,0.379,11.678,18.972,11.975,19.588c0.297,0.615,0.446,1.221,0.446,1.815c0,0.849-0.605,1.911-1.816,3.185  c-1.21,1.274-2.526,2.442-3.949,3.503c-1.423,1.062-2.739,2.187-3.95,3.376c-1.21,1.188-1.815,2.166-1.815,2.93  c0.082,1.983,1.707,9.086,14.086,19.963C52.574,70.723,58.538,73.788,59.111,74c0.574,0.212,1.051,0.317,1.433,0.317  c0.765,0,1.742-0.604,2.931-1.814c1.188-1.211,5.185-6.689,6.459-7.9c1.274-1.209,2.336-1.814,3.186-1.814  c0.594,0,1.199,0.148,1.814,0.445c0.616,0.297,19.233,11.191,19.589,11.555C95.489,75.779,94.807,78.869,94.077,80.619">
+                                            </path>
+                                        </svg></div>
+                                </a>
+                            </div>
+                        </div><a href="tel:0902777269" id="HEADLINE149" class='ladi-element'>
+                            <h3 class='ladi-headline'>0902 777 269</h3>
+                        </a>
+                        <!-- <a href="tel:0902777269" id="HEADLINE1491" class='ladi-element'>
+                            <h3 class='ladi-headline'>0902 777 269</h3>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -8864,7 +9048,7 @@
                             <h3 class='ladi-headline' style="color: red;">%<br></h3>
                         </div>
                     </div>
-                </div><a href="https://m.me/602644072935810" target="_blank" id="BUTTON4" class='ladi-element'>
+                </div><a href="https://m.me/714006396075689" target="_blank" id="BUTTON4" class='ladi-element'>
                     <div class='ladi-button ladi-transition'>
                         <div class="ladi-button-background"></div>
                         <div id="BUTTON_TEXT4" class='ladi-element ladi-button-headline'>
@@ -8884,7 +9068,7 @@
             <div class="ladi-container">
                 <div id="HEADLINE4" class='ladi-element'>
                     <h3 class='ladi-headline ladi-transition'>NÂNG CƠ THẾ HỆ CŨ
-                        <br>HIỆU QUẢ THẤP - RỦI RO CAO<br>
+                        HIỆU QUẢ THẤP - RỦI RO CAO<br>
                     </h3>
                 </div>
                 <div id="CAROUSEL1" class='ladi-element'>
@@ -8899,8 +9083,9 @@
                                         </div>
                                     </div>
                                     <div id="HEADLINE7" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Gây
-                                                khó chịu:</span> Nóng rát, châm chích, thậm chí đau đớn
+                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Hình
+                                                ảnh siêu âm
+                                                :</span> Thế hệ cũ không có hình ảnh, chỉ ước lượng vùng điều trị.
                                             <br><br>
                                         </h3>
                                     </div>
@@ -8915,9 +9100,9 @@
                                         </div>
                                     </div>
                                     <div id="HEADLINE9" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Tốn
-                                                kém thời gian:</span> Liệu trình 5-10 buổi, mỗi buổi từ 1-2 tiếng, mất
-                                            2-3 tháng để phục hồi<br></h3>
+                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;"> Phân
+                                                bổ năng lượng đồng đều:</span> Thế hệ cũ có thể gây châm chích, bỏng nhẹ
+                                            nếu kỹ thuật không chuẩn<br></h3>
                                     </div>
                                 </div>
                             </div>
@@ -8931,7 +9116,7 @@
                                     </div>
                                     <div id="HEADLINE11" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Hiệu
-                                                quả thấp</span>: Chỉ đạt 20-30% độ săn chắc, da nhanh chảy xệ trở lại
+                                                quả thấp</span>: Ultherapy cũ hoặc HIFU thông thường
                                             <br><br>
                                         </h3>
                                     </div>
@@ -8946,9 +9131,25 @@
                                         </div>
                                     </div>
                                     <div id="HEADLINE161" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Rủi
-                                                ro cao:</span> Nguy cơ tăng sắc tố, bỏng da hoặc để lại sẹo nếu năng
-                                            lượng không được kiểm soát chính xác
+                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Tùy
+                                                chỉnh theo từng vùng da và cơ địa khách hàng:</span> Phiên bản cũ có ít
+                                            tuỳ biến, hiệu quả không đồng đều
+                                            <br><br>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="CAROUSEL_ITEM42" class='ladi-element'>
+                                <div class='ladi-frame ladi-frame-bg ladi-transition'>
+                                    <div class="ladi-frame-background"></div>
+                                    <div id="IMAGE133" class='ladi-element'>
+                                        <div class='ladi-image ladi-transition'>
+                                            <div class="ladi-image-background"></div>
+                                        </div>
+                                    </div>
+                                    <div id="HEADLINE161" class='ladi-element'>
+                                        <h3 class='ladi-headline ladi-transition'><span style="font-weight: bold;">Hiệu
+                                                quả lâu dài:</span> Thế hệ cũ thường chỉ duy trì 6–9 tháng.
                                             <br><br>
                                         </h3>
                                     </div>
@@ -8965,8 +9166,9 @@
             <div class='ladi-section-background'></div>
             <div class="ladi-container">
                 <div id="HEADLINE167" class='ladi-element'>
-                    <h3 class='ladi-headline ladi-transition'>Hiệu quả vượt trội của Ultherapy so với thế hệ
-                        trước&nbsp;<br></h3>
+                    <h3 class='ladi-headline ladi-transition'>Ultherapy Prime – Thế hệ nâng cơ mới, vượt trội hơn thế hệ
+                        cũ ở 5 điểm cốt lõi
+                        &nbsp;<br></h3>
                 </div>
                 <div id="GROUP81" class='ladi-element'>
                     <div class='ladi-group'>
@@ -8974,9 +9176,14 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH38" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Duy trì hiệu quả 2-3 năm - Kích thích collagen
-                                &amp; elastin tự thân trẻ hóa da từ sâu bên trong, vượt xa Ultherapy thế hệ cũ chỉ kéo
-                                dài 6-12 tháng<br></div>
+
+                            <div class='ladi-paragraph ladi-transition'>Phân bổ năng lượng đồng đều – Ít đau hơn, hiệu
+                                quả hơn
+                                <br>→ Cải tiến đầu típ và công nghệ nhiệt vi điểm giúp tỏa nhiệt đều, kích thích
+                                collagen
+                                mạnh mà không gây bỏng rát.
+                                <br>
+                            </div>
                         </div>
                         <div id="SHAPE21" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -8997,8 +9204,11 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH39" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>1 buổi duy nhất chỉ 30-45 phút - Rút ngắn 1/2
-                                thời gian điều trị so với Ultherapy thế hệ cũ<br></div>
+                            <div class='ladi-paragraph ladi-transition'>Nâng cơ nhanh, rõ nét, tự nhiên hơn
+                                <br>→ Tác động sâu chính xác lớp SMAS giúp định hình lại gương mặt V-line chỉ sau 1
+                                buổi.
+                                <br>
+                            </div>
                         </div>
                         <div id="SHAPE22" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -9019,8 +9229,12 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH40" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Nhẹ nhàng, êm ái - Loại bỏ hoàn toàn cảm giác
-                                đau nhức, khó chịu của công nghệ thế hệ cũ<br></div>
+
+                            <div class='ladi-paragraph ladi-transition'>Hiệu quả lâu dài – Duy trì 12–18 tháng
+                                <br>→ Collagen được tái tạo liên tục sau liệu trình, mang lại làn da căng sáng tự nhiên,
+                                nâng cơ bền vững.
+                                <br>
+                            </div>
                         </div>
                         <div id="SHAPE23" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -9046,9 +9260,40 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH37" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Hiệu quả gấp 5 lần Ultherapy thế hệ cũ - Nâng
-                                cơ, xóa nhăn, mặt gọn tự nhiên không đơ cứng, hiệu quả tương đương phẫu thuật căng
-                                da.<br></div>
+
+                            <div class='ladi-paragraph ladi-transition'>Hình ảnh siêu âm See & Treat™ – Nhìn thấy để
+                                điều trị chính xác
+                                <br>→ Giúp bác sĩ quan sát trực tiếp lớp cơ SMAS trước khi phát năng lượng, đảm bảo hiệu
+                                quả
+                                và an toàn tuyệt đối.
+                                <br>
+                            </div>
+                        </div>
+                        <div id="SHAPE20" class='ladi-element' style="top: 20px;">
+                            <div class='ladi-shape ladi-transition'>
+                                <img src="/images/sao.png" style="width: 50px;" class="sao rotate" />
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    height="100%" preserveAspectRatio="none" viewBox="0 0 24 24" class=""
+                                    fill="rgba(105, 74, 167, 1)">
+                                    <use xlink:href="#shape_moGLzSvAzl"></use>
+                                </svg> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP801" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="BOX27" class='ladi-element'>
+                            <div class='ladi-box ladi-transition'></div>
+                        </div>
+                        <div id="PARAGRAPH37" class='ladi-element'>
+
+                            <div class='ladi-paragraph ladi-transition'>Tùy chỉnh theo từng vùng da và cơ địa khách hàng
+                                <br>→ Prime cho phép cá nhân hóa năng lượng, độ sâu và đầu típ theo từng khu vực (mắt,
+                                trán,
+                                má, cổ…).
+                                <br>
+                            </div>
                         </div>
                         <div id="SHAPE20" class='ladi-element' style="top: 20px;">
                             <div class='ladi-shape ladi-transition'>
@@ -9073,7 +9318,8 @@
                     </div>
                 </div>
                 <div id="HEADLINE16" class='ladi-element'>
-                    <h3 class='ladi-headline ladi-transition'>ĐỘT PHÁ CÔNG NGHỆ <br>XÓA NHĂN, NÂNG CƠ<br></h3>
+                    <h3 class='ladi-headline ladi-transition' style="text-transform: uppercase;">không chỉ nâng cấp công
+                        nghệ <br>mà nâng cấp cả trải nghiệm và kết quả.<br></h3>
                 </div>
                 <div id="IMAGE21" class='ladi-element'>
                     <div class='ladi-image ladi-transition'>
@@ -9142,7 +9388,7 @@
                         <div class="ladi-carousel-arrow ladi-carousel-arrow-left opacity-0"></div>
                         <div class="ladi-carousel-arrow ladi-carousel-arrow-right opacity-0"></div>
                     </div>
-                </div><a href="https://m.me/602644072935810" target="_blank" id="BUTTON5" class='ladi-element'>
+                </div><a href="https://m.me/714006396075689" target="_blank" id="BUTTON5" class='ladi-element'>
                     <div class='ladi-button ladi-transition'>
                         <div class="ladi-button-background"></div>
                         <div id="BUTTON_TEXT5" class='ladi-element ladi-button-headline'>
@@ -9165,10 +9411,11 @@
                         HOLLYWOOD<br></h3>
                 </div>
                 <div id="HEADLINE35" class='ladi-element'>
-                    <h3 class='ladi-headline'>Ultherapy là công nghệ nâng cơ mới được săn đón nhất hiện nay, lựa
-                        chọn hàng đầu của hàng loạt sao Hàn Quốc: diễn viên Lee Min Ho, Kim Ha-Neul, Jeon So Min đến các
-                        biểu tượng Hollywood đình đám như diễn viên Jennifer Aniston, Gwyneth Paltrow, siêu mẫu Christie
-                        Brinkley,...<br></h3>
+                    <h3 class='ladi-headline'>Ultherapy là công nghệ nâng cơ mới được săn đón nhất hiện nay, lựa chọn
+                        hàng đầu của hàng loạt sao Hàn Quốc: diễn viên Lee Min Ho, Kim Ha-Neul, Jeon So Min đến các biểu
+                        tượng Hollywood đình đám như diễn viên Jennifer Aniston, Gwyneth Paltrow, siêu mẫu Christie
+                        Brinkley,...Tất cả đều là tín đồ của Ultherapy – Vũ khí bí mật giúp họ luôn trẻ trung bất chấp
+                        thời gian.<br></h3>
                 </div>
                 <div id="CAROUSEL12" class='ladi-element'>
                     <div class="ladi-carousel">
@@ -9186,8 +9433,9 @@
                                         </h3>
                                     </div>
                                     <div id="HEADLINE37" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Từ năm 20 tuổi tôi đã làm Ultherapy và
-                                            bây giờ tiếp tục tin tưởng Ultherapy thế hệ mới nhất để duy trì làn da
+                                        <h3 class='ladi-headline ladi-transition'>Từ năm 20 tuổi tôi đã làm ULTHERAPY
+                                            PRIME và
+                                            bây giờ tiếp tục tin tưởng ULTHERAPY PRIME thế hệ mới nhất để duy trì làn da
                                             săn chắc tươi trẻ bền lâu.<br></h3>
                                     </div>
                                 </div>
@@ -9205,7 +9453,7 @@
                                             tuổi)<br></h3>
                                     </div>
                                     <div id="HEADLINE39" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Ngay sau khi làm Ultherapy, da
+                                        <h3 class='ladi-headline ladi-transition'>Ngay sau khi làm ULTHERAPY PRIME, da
                                             tôi đã sạch nhăn rõ rệt ở vùng đuôi mắt, trán, rãnh cười ban đầu rất sâu
                                             cũng được mờ hẳn, gương mặt thon gọn hơn. Tôi rất hài lòng.<br></h3>
                                     </div>
@@ -9226,7 +9474,7 @@
                                     </div>
                                     <div id="HEADLINE41" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Dù lịch trình đi diễn dày đặc nhưng
-                                            tôi luôn sắp xếp để làm Ultherapy. Công nghệ này nâng cơ và xóa nhăn
+                                            tôi luôn sắp xếp để làm ULTHERAPY PRIME. Công nghệ này nâng cơ và xóa nhăn
                                             tốt nhất trong các phương pháp trẻ hóa không xâm lấn hiện tại.&nbsp;<br>
                                         </h3>
                                     </div>
@@ -9247,8 +9495,10 @@
                                     </div>
                                     <div id="HEADLINE43" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Suốt 5 năm qua, tôi đều đặn làm
-                                            Ultherapy mỗi năm 1 lần để duy trì vẻ đẹp tự nhiên. Điều tôi yêu thích nhất
-                                            ở Ultherapy là hiệu quả nhanh, da căng tự nhiên chỉ sau 1 lần điều trị, giúp
+                                            ULTHERAPY PRIME mỗi năm 1 lần để duy trì vẻ đẹp tự nhiên. Điều tôi yêu thích
+                                            nhất
+                                            ở ULTHERAPY PRIME là hiệu quả nhanh, da căng tự nhiên chỉ sau 1 lần điều
+                                            trị, giúp
                                             làn da luôn tươi trẻ, rạng rỡ.<br></h3>
                                     </div>
                                 </div>
@@ -9270,7 +9520,7 @@
                                     <div id="HEADLINE45" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Bên cạnh việc duy trì chế độ ăn thuần
                                             chay, kết hợp tập luyện yoga và cardio, tôi đặc biệt chú trọng đến chăm sóc
-                                            da. Chỉ với 1 lần mỗi năm, Ultherapy giúp tôi giữ gìn làn da tươi trẻ,
+                                            da. Chỉ với 1 lần mỗi năm, ULTHERAPY PRIME giúp tôi giữ gìn làn da tươi trẻ,
                                             rạng rỡ và tràn đầy sức sống, ngay cả khi đã ngoài 70 tuổi.<br></h3>
                                     </div>
                                 </div>
@@ -9290,7 +9540,8 @@
                                         </h3>
                                     </div>
                                     <div id="HEADLINE47" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Tôi chọn Ultherapy vì không xâm lấn,
+                                        <h3 class='ladi-headline ladi-transition'>Tôi chọn ULTHERAPY PRIME vì không xâm
+                                            lấn,
                                             không đau, không cần nghỉ dưỡng - giải pháp hoàn hảo thay thế tiêm filler và
                                             phẫu thuật căng da, đặc biệt lý tưởng cho những người bận rộn như
                                             tôi.<br><br></h3>
@@ -9312,8 +9563,10 @@
                                         </h3>
                                     </div>
                                     <div id="HEADLINE49" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Khi làm Ultherapy thực sự nhẹ nhàng.
-                                            Sau mỗi buổi làm Ultherapy giúp tôi như trẻ ra 5 tuổi, giữ mãi sự trẻ trung
+                                        <h3 class='ladi-headline ladi-transition'>Khi làm ULTHERAPY PRIME thực sự nhẹ
+                                            nhàng.
+                                            Sau mỗi buổi làm ULTHERAPY PRIME giúp tôi như trẻ ra 5 tuổi, giữ mãi sự trẻ
+                                            trung
                                             dù đã U60.<br><br></h3>
                                     </div>
                                 </div>
@@ -9329,8 +9582,8 @@
             <div class='ladi-section-background'></div>
             <div class="ladi-container">
                 <div id="HEADLINE50" class='ladi-element'>
-                    <h3 class='ladi-headline ladi-transition'>SAO VIỆT VÀ NHỮNG KHÁCH HÀNG
-                        <br>ĐẦU TIÊN THỰC HIỆN<br>
+                    <h3 class='ladi-headline ladi-transition'>DOANH NHÂN VÀ KHÁCH HÀNG VIỆT KIỀU<br> THỰC HIỆN ULTHERAPY
+                        PRIME<br>
                     </h3>
                 </div>
                 <div id="IMAGE44" class='ladi-element'>
@@ -9339,7 +9592,7 @@
                     </div>
                 </div>
                 <div id="HEADLINE51" class='ladi-element'>
-                    <h3 class='ladi-headline ladi-transition'>TẠI V-Medical<br></h3>
+                    <h3 class='ladi-headline ladi-transition'>TẠI V-MEDICAL<br></h3>
                 </div>
                 <div id="CAROUSEL22" class='ladi-element'>
                     <div class="ladi-carousel">
@@ -9356,8 +9609,9 @@
                                         <h3 class='ladi-headline ladi-transition'>CEO LÝ THÙY CHANG<br></h3>
                                     </div>
                                     <div id="HEADLINE53" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Chang từng làm Ultherapy trong 1 thời
-                                            gian dài, nhưng khi thực hiện Ultherapy thì hoàn toàn khác biệt: Hiệu
+                                        <h3 class='ladi-headline ladi-transition'>Chang từng làm ULTHERAPY PRIME trong 1
+                                            thời
+                                            gian dài, nhưng khi thực hiện ULTHERAPY PRIME thì hoàn toàn khác biệt: Hiệu
                                             quả nhanh hơn, thời gian điều trị rút ngắn, trải nghiệm êm ái và nhẹ nhàng
                                             vượt trội so với công nghệ cũ.
                                             <br><br>
@@ -9377,7 +9631,7 @@
                                         <h3 class='ladi-headline ladi-transition'>CA SĨ THANH HÀ<br></h3>
                                     </div>
                                     <div id="HEADLINE55" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Ultherapy rất phổ biến tại Mỹ,
+                                        <h3 class='ladi-headline ladi-transition'>ULTHERAPY PRIME rất phổ biến tại Mỹ,
                                             nhưng khi về Việt Nam, tôi chọn thực hiện tại V-Medical. Không chỉ
                                             vì chi phí hợp lý hơn, mà hiệu quả vẫn đạt chuẩn, không thua kém so với tại
                                             Mỹ.
@@ -9399,7 +9653,8 @@
                                     </div>
                                     <div id="HEADLINE57" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Tôi là tín đồ của các công nghệ trẻ
-                                            hóa không xâm lấn như Thermage FLX, Ultherapy và mới nhất là Ultherapy
+                                            hóa không xâm lấn như Thermage FLX, ULTHERAPY PRIME và mới nhất là ULTHERAPY
+                                            PRIME
                                             . Chỉ sau một buổi đã thấy sự thay đổi rõ rệt: da săn chắc, gương mặt
                                             thon gọn, nếp nhăn mờ hẳn.
                                             <br><br>
@@ -9419,8 +9674,9 @@
                                         <h3 class='ladi-headline ladi-transition'>CA SĨ BẢO THY<br></h3>
                                     </div>
                                     <div id="HEADLINE59" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Từng làm Ultherapy tại Lavender By
-                                            Chang, nhưng khi làm Ultherapy thì Thy thấy sự khác biệt hoàn toàn:
+                                        <h3 class='ladi-headline ladi-transition'>Từng làm ULTHERAPY PRIME tại Lavender
+                                            By
+                                            Chang, nhưng khi làm ULTHERAPY PRIME thì Thy thấy sự khác biệt hoàn toàn:
                                             chỉ mất 30 phút cho cả gương mặt, da săn chắc ngay sau khi làm, đặc biệt nhẹ
                                             nhàng, êm ái, không còn cảm giác nóng như công nghệ cũ.
                                             <br><br>
@@ -9442,7 +9698,8 @@
                                     </div>
                                     <div id="HEADLINE61" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Thi nói không với làm đẹp xâm lấn, do
-                                            đó Ultherapy là lưa chọn an toàn nhất. So với công nghệ cũ, Ultherapy
+                                            đó ULTHERAPY PRIME là lưa chọn an toàn nhất. So với công nghệ cũ, ULTHERAPY
+                                            PRIME
                                             vượt trội mọi mặt: máy móc hiện đại hơn, thời gian thực hiện nhanh
                                             hơn, hiệu quả rõ rệt hơn và hoàn toàn không đau.
                                             <br><br>
@@ -9463,7 +9720,7 @@
                                     </div>
                                     <div id="HEADLINE63" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Mình luôn tin tưởng các công nghệ làm
-                                            đẹp tại V-Medical gần 10 năm, nên khi Ultherapy ra mắt, mình
+                                            đẹp tại V-Medical gần 10 năm, nên khi ULTHERAPY PRIME ra mắt, mình
                                             không ngần ngại trải nghiệm ngay. Quá trình thực hiện hoàn toàn không đau,
                                             da săn chắc rõ rệt ngay sau làm và ngày càng đẹp hơn theo thời gian giúp
                                             tiết kiệm chi phí tối đa.
@@ -9487,7 +9744,7 @@
                                         </h3>
                                     </div>
                                     <div id="HEADLINE65" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Ultherapy rất phổ biến tại Mỹ
+                                        <h3 class='ladi-headline ladi-transition'>ULTHERAPY PRIME rất phổ biến tại Mỹ
                                             nhưng chi phí cao và đặt hẹn khó khăn. Vì vậy, khi về Việt Nam, mình đã chọn
                                             thực hiện tại V-Medical. Chỉ sau 45 phút, gương mặt thon gọn hẳn, da
                                             săn chắc, rãnh cười biến mất, đặc biệt chi phí tiết kiệm hơn nhiều.
@@ -9509,7 +9766,7 @@
                                     </div>
                                     <div id="HEADLINE67" class='ladi-element'>
                                         <h3 class='ladi-headline ladi-transition'>Ở tuổi U50, da chảy xệ, nhăn nheo rõ
-                                            rệt. Nhưng chỉ sau 1 buổi Ultherapy tại V-Medical, làn da căng
+                                            rệt. Nhưng chỉ sau 1 buổi ULTHERAPY PRIME tại V-Medical, làn da căng
                                             mịn, săn chắc, viền hàm sắc nét, trẻ trung như giảm cả chục tuổi.
                                             <br><br>
                                         </h3>
@@ -9528,7 +9785,7 @@
                                         <h3 class='ladi-headline ladi-transition'>KHÁCH HÀNG TÚ ĐÀO<br></h3>
                                     </div>
                                     <div id="HEADLINE69" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Khi làm Ultherapy nhẹ nhàng, êm
+                                        <h3 class='ladi-headline ladi-transition'>Khi làm ULTHERAPY PRIME nhẹ nhàng, êm
                                             ái, không còn cảm giác nóng rát như phiên bản cũ. Đặc biệt, da săn chắc ngay
                                             sau làm, đàn hồi rõ rệt, nếp nhăn mờ dần, rãnh cười biến mất, giúp gương mặt
                                             trẻ ra đến 10 tuổi.
@@ -9549,7 +9806,7 @@
                                         <h3 class='ladi-headline ladi-transition'>KHÁCH HÀNG THANH THỦY<br></h3>
                                     </div>
                                     <div id="HEADLINE71" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>Ultherapy giúp tôi giải quyết
+                                        <h3 class='ladi-headline ladi-transition'>ULTHERAPY PRIME giúp tôi giải quyết
                                             triệt để các dấu hiệu lão hóa ở tuổi U60. Nếp nhăn, da chùng nhão, chảy xệ
                                             cải thiện, hoàn toàn không đau.
                                             <br><br>
@@ -9622,8 +9879,10 @@
                                 </div>
                             </div> -->
                         </div>
-                        <div class="ladi-carousel-arrow ladi-carousel-arrow-left opacity-0" style="display: none;"></div>
-                        <div class="ladi-carousel-arrow ladi-carousel-arrow-right opacity-0" style="display: none;"></div>
+                        <div class="ladi-carousel-arrow ladi-carousel-arrow-left opacity-0" style="display: none;">
+                        </div>
+                        <div class="ladi-carousel-arrow ladi-carousel-arrow-right opacity-0" style="display: none;">
+                        </div>
                     </div>
                 </div>
                 <div id="IMAGE25" class='ladi-element'>
@@ -9809,7 +10068,7 @@
                         <div id="VIDEO9" class='ladi-element'>
                             <div class='ladi-video'>
                                 <div class="ladi-video-background"></div>
-                                <div id="SHAPE9" class='ladi-element'>
+                                <!-- <div id="SHAPE9" class='ladi-element'>
                                     <div class='ladi-shape'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
                                             preserveAspectRatio="none" viewBox="0 0 408.7 408.7"
@@ -9817,7 +10076,7 @@
                                             <use xlink:href="#shape_MHaIeFzvrt"></use>
                                         </svg>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div id="HEADLINE78" class='ladi-element'>
@@ -9837,7 +10096,7 @@
                     </div>
                 </div>
                 <div id="HEADLINE80" class='ladi-element'>
-                    <h3 class='ladi-headline'>LÝ DO CHỌN ULTHERAPY NÂNG CƠ <br></h3>
+                    <h3 class='ladi-headline'>LÝ DO CHỌN ULTHERAPY PRIME NÂNG CƠ<br></h3>
                 </div>
                 <div id="GROUP15" class='ladi-element'>
                     <div class='ladi-group'>
@@ -9845,8 +10104,9 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH11" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Chuyển giao chính hãng công nghệ Ultherapy
-                                từ Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA)<br></div>
+                            <div class='ladi-paragraph ladi-transition'>Máy Ultherapy Prime được nhập khẩu chính hãng từ
+                                Hoa Kỳ
+                                – Có chứng nhận FDA, tem máy đầy đủ, đầu típ mới 100%.<br></div>
                         </div>
                         <div id="SHAPE10" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -9866,8 +10126,8 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH13" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Đội ngũ bác sĩ giàu kinh nghiệm trong lĩnh vực
-                                trẻ hóa và da liễu thẩm mỹ<br></div>
+                            <div class='ladi-paragraph ladi-transition'>Bác sĩ thực hiện được đào tạo trực tiếp từ hãng
+                                – Thấu hiểu cấu trúc da, thao tác chuẩn xác từng lớp cơ SMAS.<br></div>
                         </div>
                         <div id="SHAPE12" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -9882,7 +10142,7 @@
                     </div>
                 </div>
                 <div id="HEADLINE81" class='ladi-element'>
-                    <h3 class='ladi-headline'>TẠI V-Medical<br></h3>
+                    <h3 class='ladi-headline'> TẠI V.MEDICAL<br></h3>
                 </div>
                 <div id="GROUP18" class='ladi-element'>
                     <div class='ladi-group'>
@@ -9890,8 +10150,11 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH14" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Thời gian thực hiện chỉ 30 phút trong 1 buổi
-                                điều trị duy nhất, duy trì hiệu quả từ 2-3 năm<br></div>
+                            <div class='ladi-paragraph ladi-transition'>Ứng dụng công nghệ See & Treat™
+                                – Có màn hình siêu âm nhìn thấy rõ từng lớp da trước khi điều trị, tăng độ chính xác
+                                tuyệt đối.
+                                <br>
+                            </div>
                         </div>
                         <div id="SHAPE13" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -9911,8 +10174,54 @@
                             <div class='ladi-box ladi-transition'></div>
                         </div>
                         <div id="PARAGRAPH15" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>Được tư vấn 1:1 với bác sĩ, xây dựng phác đồ
-                                điều trị riêng biệt theo cơ địa và nhu cầu cá nhân<br></div>
+                            <div class='ladi-paragraph ladi-transition'>18 năm uy tín – Chuyên sâu công nghệ trẻ hóa
+                                không xâm lấn
+                                – Cam kết không chạy theo giá rẻ, không đánh đổi chất lượng vì lợi nhuận.
+                                <br>
+                            </div>
+                        </div>
+                        <div id="SHAPE14" class='ladi-element'>
+                            <div class='ladi-shape ladi-transition'>
+                                <img src="/images/sao.png" style="width: 50px;" class="sao rotate" />
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    height="100%" preserveAspectRatio="none" viewBox="0 0 24 24" class=""
+                                    fill="rgba(105, 74, 167, 1)">
+                                    <use xlink:href="#shape_moGLzSvAzl"></use>
+                                </svg> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP191" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="BOX14" class='ladi-element'>
+                            <div class='ladi-box ladi-transition'></div>
+                        </div>
+                        <div id="PARAGRAPH15" class='ladi-element'>
+                            <div class='ladi-paragraph ladi-transition'>Phác đồ cá nhân hóa theo độ tuổi – tình trạng da
+                                – Không đại trà, đảm bảo hiệu quả tối ưu cho từng khách hàng.<br></div>
+                        </div>
+                        <div id="SHAPE14" class='ladi-element'>
+                            <div class='ladi-shape ladi-transition'>
+                                <img src="/images/sao.png" style="width: 50px;" class="sao rotate" />
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    height="100%" preserveAspectRatio="none" viewBox="0 0 24 24" class=""
+                                    fill="rgba(105, 74, 167, 1)">
+                                    <use xlink:href="#shape_moGLzSvAzl"></use>
+                                </svg> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GROUP192" class='ladi-element'>
+                    <div class='ladi-group'>
+                        <div id="BOX14" class='ladi-element'>
+                            <div class='ladi-box ladi-transition'></div>
+                        </div>
+                        <div id="PARAGRAPH15" class='ladi-element'>
+                            <div class='ladi-paragraph ladi-transition'>Hiệu quả thấy rõ sau 1 lần – duy trì đến 18
+                                tháng
+                                – Nâng cơ, xóa nhăn, tái sinh collagen sâu mà không cần nghỉ dưỡng.<br></div>
                         </div>
                         <div id="SHAPE14" class='ladi-element'>
                             <div class='ladi-shape ladi-transition'>
@@ -10052,9 +10361,10 @@
                     </div>
                 </div>
                 <div id="HEADLINE82" class='ladi-element'>
-                    <h3 class='ladi-headline'>Khách hàng được điều trị trực tiếp bởi đội ngũ bác sĩ, chuyên gia hơn 10
-                        năm kinh nghiệm, đào tạo chuyên môn tại các hãng thẩm mỹ danh tiếng trên thế giới, kết hợp công
-                        nghệ tối tân để mang lại hiệu quả trẻ hóa rõ rệt ngay sau buổi đầu tiên.<br></h3>
+                    <h3 class='ladi-headline'>V.Medical không chỉ mang đến làn da đẹp – mà còn là sự an tâm, chuẩn mực y
+                        khoa & trải nghiệm đẳng cấp.
+                        <br>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -10065,17 +10375,20 @@
                     <div class="ladi-carousel">
                         <div class='ladi-carousel-content'>
                             <div id="GROUP77" class='ladi-element'>
-                                <div class='ladi-group'>
+                                <a href="https://uytinthuonghieu.vn/cong-nghe-ultherapy-prime-chinh-hang-tai-vmedical-200"
+                                    class='ladi-group'>
                                     <div id="IMAGE63" class='ladi-element'>
                                         <div class='ladi-image ladi-transition'>
                                             <div class="ladi-image-background"></div>
                                         </div>
                                     </div>
                                     <div id="HEADLINE84" class='ladi-element'>
-                                        <h3 class='ladi-headline ladi-transition'>VnExpress | Ra mắt phiên bản nâng cơ
-                                            trẻ hóa Ultherapy thế hệ mới<br></h3>
+                                        <h3 class='ladi-headline ladi-transition'>
+                                            Uytinthuonghieu.vn | Công nghệ Ultherapy Prime chính hãng tại V.Medical
+                                            <br>
+                                        </h3>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div id="HEADLINE83" class='ladi-element'>
                                 <h3 class='ladi-headline ladi-transition'></h3>
@@ -10104,8 +10417,8 @@
                                     Việt đến làm đẹp<br></h3>
                             </div>
                             <div id="HEADLINE89" class='ladi-element'>
-                                <h3 class='ladi-headline ladi-transition'>Dân Trí | V-Medical là địa chỉ được
-                                    nhiều sao Việt và hải ngoại đến làm đẹp<br></h3>
+                                <h3 class='ladi-headline ladi-transition'>Danhgiadoanhnghiep.vn | Khẳng định vị thế hàng
+                                    đầu trong lĩnh vực chăm sóc da<br></h3>
                             </div>
                             <div id="IMAGE69" class='ladi-element'>
                                 <div class='ladi-image ladi-transition'>
@@ -10118,12 +10431,12 @@
                                 </div>
                             </div>
                             <div id="HEADLINE90" class='ladi-element'>
-                                <h3 class='ladi-headline ladi-transition'>VnExpress | V-Medical cập nhật nhiều
-                                    công nghệ làm đẹp mới<br></h3>
+                                <h3 class='ladi-headline ladi-transition'>Tintucngaymoi.vn | Năm 2025, đánh dấu cột mốc
+                                    rực rỡ trong hành trình phát triển của V.MEDICAL với danh hiệu danh giá <br></h3>
                             </div>
                             <div id="HEADLINE91" class='ladi-element'>
-                                <h3 class='ladi-headline ladi-transition'>Thanh Niên | V-Medical và 3 yếu tố tạo
-                                    nên đẳng cấp thương hiệu thẩm mỹ viện<br></h3>
+                                <h3 class='ladi-headline ladi-transition'>Kinhtechaua.vn |V.MEDICAL đã không ngừng nỗ
+                                    lực đê theo đuổi sứ mệnh “Kiến tạo làn da khỏe đẹp cho người Việt”<br></h3>
                             </div>
                             <div id="GROUP79" class='ladi-element'>
                                 <div class='ladi-group'>
@@ -10144,10 +10457,10 @@
                     </div>
                 </div>
                 <div id="HEADLINE92" class='ladi-element'>
-                    <h3 class='ladi-headline'>BÁO CHÍ VIẾT VỀ<br></h3>
+                    <h3 class='ladi-headline'>BÁO CHÍ VIẾT VỀ ULTHERAPY PRIME THẾ HỆ MỚI<br></h3>
                 </div>
                 <div id="HEADLINE94" class='ladi-element'>
-                    <h3 class='ladi-headline'>ULTHERAPY THẾ HỆ MỚI<br></h3>
+                    <h3 class='ladi-headline'>TẠI V-MEDICAL<br></h3>
                 </div>
             </div>
         </div>
@@ -10155,11 +10468,52 @@
             <div class='ladi-section-background'></div>
             <div class="ladi-container">
                 <div id="HEADLINE95" class='ladi-element'>
+                    <h3 class='ladi-headline'>VIỆN THẨM MỸ QUỐC TẾ V-MEDICAL<br></h3>
+                </div>
+                <div id="HEADLINE96" class='ladi-element ladi-transition'>
+                    <h3 class='ladi-headline'>V-Medical tự hào là đối tác chiến lược với Utherapy tại Việt Nam, Là một
+                        trong 3 cơ sở trên toàn quốc sở hữu đầy đủ máy Ultherapy prime chính hãng tại miền Bắc và Miền
+                        Nam – được hãng ủy quyền kiểm định.<br></h3>
+                </div>
+                <div id="HEADLINE97" class='ladi-element'>
+                    <h3 class='ladi-headline'>Trung tâm ultherapy prime chính hãng miền Nam<br></h3>
+                </div>
+                <div id="CAROUSEL42" class='ladi-element grid-12'>
+                    <div class="card highlight"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+
+                <div id="HEADLINE98" class='ladi-element'>
+                    <h3 class='ladi-headline'>Trung tâm ultherapy prime chính hãng miền Bắc<br></h3>
+                </div>
+                <div id="CAROUSEL47" class='ladi-element grid-4'>
+                    <div class="card highlight"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="SECTION20" class='ladi-section'>
+            <div class='ladi-section-background'></div>
+            <div class="ladi-container">
+                <div id="HEADLINE95" class='ladi-element'>
                     <h3 class='ladi-headline'>VIỆN THẨM MỸ QUỐC TẾ V-MEDICAL Ở ĐÂU<br></h3>
                 </div>
                 <div id="HEADLINE96" class='ladi-element'>
-                    <h3 class='ladi-headline ladi-transition'>V-MEDICAL CLINIC TỰ HÀO LÀ ĐỐI TÁC CHIẾN LƯỢC CỦA NEOASIA
-                        – ĐƠN VỊ PHÂN PHỐI PROFHILO CHÍNH HÃNG<br></h3>
+                    <h3 class='ladi-headline ladi-transition'><br></h3>
                 </div>
                 <div id="HEADLINE97" class='ladi-element'>
                     <h3 class='ladi-headline'>57A Trần Quốc Thảo, P. Võ Thị Sáu, Q.3, TP.HCM<br></h3>
@@ -10475,15 +10829,20 @@
                 <div id="GROUP25" class='ladi-element'>
                     <div class='ladi-group'>
                         <div id="PARAGRAPH31" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'>VIỆN THẨM MỸ QUỐC TẾ V-Medical<br></div>
+                            <div class='ladi-paragraph ladi-transition'>HỆ THỐNG PHÒNG KHÁM DA LIỄU QUỐC TẾ V.MEDICAL
+                                <br>
+                            </div>
                         </div>
                         <div id="PARAGRAPH32" class='ladi-element'>
-                            <div class='ladi-paragraph ladi-transition'><span style="font-weight: bold;">Chi nhánh Hà
-                                    Nội
+                            <div class='ladi-paragraph ladi-transition'><span style="font-weight: bold;">Cơ sở 1
                                 </span><br>68 Lê Văn Hưu, Q. Hai Bà Trưng, TP. Hà Nội
-                                <br><span style="font-weight: bold;">Chi nhánh TP.Hồ Chí Minh
+                                <br><span style="font-weight: bold;">Cơ sở 2
                                 </span><br>57A Trần Quốc Thảo, P. Võ Thị Sáu, Q.3, TP.HCM
-                                <br><span style="font-weight: bold;">Hotline:</span> 0902 777 269 - 0943 847 799
+                                <br><span style="font-weight: bold;">Hotline:</span> 0968 19 15 17 - 0902 777 269
+                                <br><span style="font-weight: bold;">Website:</span> <a
+                                    href="https://vmedicalclinic.vn/">https://vmedicalclinic.vn/</a>
+                                <br><span style="font-weight: bold;">Fanpage:</span> <a
+                                    href="https://www.facebook.com/vmedical.since2006/">https://www.facebook.com/vmedical.since2006/</a>
                                 <br><span style="font-weight: bold;">Thời gian làm việc:</span> 08:00-20:00 thứ 2 đến
                                 Chủ nhật<br>
                             </div>
@@ -10689,7 +11048,7 @@
     </style>
     <script src="https://w.ladicdn.com/v4/source/ladipagev3.min.js?v=1744270166358" type="text/javascript"></script>
     <script id="script_event_data"
-        type="application/json">{"BUTTON2":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/602644072935810","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"SECTION4":{"a":"section","aD":true,"aA":"top","aw":"0px","aq":"0px"},"CAROUSEL1":{"a":"carousel","cN":2,"cG":"type_abab","H":"313px","G":"350px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL2":{"a":"carousel","cG":"type_abab","K":"1788px","H":"596px","J":"630px","G":"210px","cM":"0px","cJ":"horizontal","R":true,"O":3},"CAROUSEL3":{"a":"carousel","cN":2,"cG":"type_abab","H":"305px","G":"200px","cM":"3px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL4":{"a":"carousel","cN":2,"cG":"type_abab","H":"633px","G":"404px","cM":"5px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL12":{"a":"carousel","cN":2,"cG":"type_abab","H":"365px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL22":{"a":"carousel","cN":2,"cG":"type_abab","H":"382px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":4,"L":"1250px"},"VIDEO6":{"a":"video","ci":"https://www.youtube.com/watch?v=fNAPtWHLZVQ","ch":"youtube","cg":false},"VIDEO7":{"a":"video","ci":"https://www.youtube.com/watch?v=T3owngs","ch":"youtube","cg":true},"VIDEO8":{"a":"video","ci":"https://www.youtube.com/watch?v=WHnKNY","ch":"youtube","cg":false},"VIDEO9":{"a":"video","ci":"https://www.youtube.com/watch?v=fk9ClIQSs","ch":"youtube","cg":false},"GROUP15":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP17":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP18":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP19":{"a":"group","E":"fadeInDown","B":"0s"},"CAROUSEL37":{"a":"carousel","cG":"type_abab","K":"1800px","H":"450px","J":"1560px","G":"390px","cM":"0px","cJ":"horizontal","R":true,"O":3},"CAROUSEL38":{"a":"carousel","cG":"type_abab","K":"2534px","H":"362px","J":"2940px","G":"420px","cM":"0px","cJ":"horizontal","R":true,"O":4},"ACCORDION_SHAPE15":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU38":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT37","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE16":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU40":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT39","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE17":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU42":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT41","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE18":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU44":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT43","dG":true,"a":"collapse"}]},"IMAGE88":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.facebook.com/qd.media.one","a":"link"}]},"IMAGE89":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.youtube.com/c/LavenderspaVn","a":"link"}]},"IMAGE90":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.instagram.com/lavenderbychang/","a":"link"}]},"IMAGE91":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.tiktok.com/@lavender.by.chang","a":"link"}]},"COUNTDOWN_ITEM1":{"a":"countdown_item","bY":"day"},"COUNTDOWN_ITEM2":{"a":"countdown_item","bY":"hour"},"COUNTDOWN_ITEM3":{"a":"countdown_item","bY":"minute"},"COUNTDOWN_ITEM4":{"a":"countdown_item","bY":"seconds"},"COUNTDOWN1":{"a":"countdown","bX":"daily","bV":"00:00:00","bU":"23:59:59"},"BUTTON3":{"a":"button","F":"pulse","C":"1s"},"FORM_ITEM2":{"a":"form_item","bS":"text","bQ":1},"FORM_ITEM3":{"a":"form_item","bS":"tel","bQ":3},"FORM2":{"option.dynamic_form_config":"&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;text_thankyou_value&#34;:&#34;Cảm ơn anh/chị đã đăng ký! Tư vấn viên sẽ liên hệ lại với anh/chị ngay ạ!&#34;,&#34;type&#34;:&#34;form_show_popup_default&#34;,&#34;no_delete&#34;:true&#125;]&#125;","a":"form","bP":"624674514bbb65005b674edd","bM":true,"bF":"Lead","bE":"11022686482","bC":"l01qCL6giYIYEJKyg4gp","by":true,"bx":true,"F":"fadeIn","C":"0s"},"GROUP54":{"a":"group","E":"pulse","B":"1s"},"BOX23":{"a":"box","cs":[{"dr":"action","dv":"_blank","dw":"https://www.messenger.com/t/VientrangdaLavenderByChang","a":"link"}]},"GROUP57":{"a":"group","cs":[{"dw":"https://m.me/602644072935810","dr":"action","dv":"_blank","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","ay":"bottom_left","ap":"90px","ax":"bottom_right","ao":"10px","aD":true,"aw":"0px","at":"30px","an":"0px"},"BOX25":{"a":"box","cs":[{"dw":"0902308888","dr":"action","a":"phone"}]},"SHAPE19":{"a":"shape","cs":[{"dw":"0902308888","dr":"action","a":"phone"}],"F":"swing","C":"1s"},"GROUP59":{"a":"group","cs":[{"dw":"0902308888","dr":"action","a":"phone"}]},"HEADLINE149":{"a":"headline","cs":[{"dw":"0902308888","dr":"action","a":"phone"}]},"GROUP58":{"a":"group","cs":[{"dw":"0902308888","dr":"action","a":"phone"}],"cm":"Call","cl":"11022686482","ck":"--OOCLugiYIYEJKyg4gp","as":"30px","ap":"30px","ar":"10px","ao":"10px","aD":true,"aA":"bottom_left","aw":"0px","an":"0px"},"BUTTON4":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/602644072935810","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"BUTTON5":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/602644072935810","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"GROUP80":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP81":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP82":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP83":{"a":"group","E":"fadeInDown","B":"0s"},"CAROUSEL42":{"a":"carousel","cN":2,"cG":"type_abab","H":"500px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL47":{"a":"carousel","cN":2,"cG":"type_abab","H":"500px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"}}</script>
+        type="application/json">{"BUTTON2":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/714006396075689","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"SECTION4":{"a":"section","aD":true,"aA":"top","aw":"0px","aq":"0px"},"CAROUSEL1":{"a":"carousel","cN":2,"cG":"type_abab","H":"313px","G":"350px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL2":{"a":"carousel","cG":"type_abab","K":"1788px","H":"596px","J":"630px","G":"210px","cM":"0px","cJ":"horizontal","R":true,"O":3},"CAROUSEL3":{"a":"carousel","cN":2,"cG":"type_abab","H":"305px","G":"200px","cM":"3px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL4":{"a":"carousel","cN":2,"cG":"type_abab","H":"633px","G":"404px","cM":"5px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL12":{"a":"carousel","cN":2,"cG":"type_abab","H":"365px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL22":{"a":"carousel","cN":2,"cG":"type_abab","H":"382px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":4,"L":"1250px"},"VIDEO6":{"a":"video","ci":"https://www.youtube.com/watch?v=fNAPtWHLZVQ","ch":"youtube","cg":false},"VIDEO7":{"a":"video","ci":"https://www.youtube.com/watch?v=T3owngs","ch":"youtube","cg":true},"VIDEO8":{"a":"video","ci":"https://www.youtube.com/watch?v=WHnKNY","ch":"youtube","cg":false},"VIDEO9":{"a":"video","ci":"https://www.youtube.com/watch?v=fk9ClIQSs","ch":"youtube","cg":false},"GROUP15":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP17":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP18":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP19":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP192":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP191":{"a":"group","E":"fadeInDown","B":"0s"},"CAROUSEL37":{"a":"carousel","cG":"type_abab","K":"1800px","H":"450px","J":"1560px","G":"390px","cM":"0px","cJ":"horizontal","R":true,"O":3},"CAROUSEL38":{"a":"carousel","cG":"type_abab","K":"2534px","H":"362px","J":"2940px","G":"420px","cM":"0px","cJ":"horizontal","R":true,"O":4},"ACCORDION_SHAPE15":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU38":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT37","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE16":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU40":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT39","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE17":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU42":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT41","dG":true,"a":"collapse"}]},"ACCORDION_SHAPE18":{"a":"shape","aO":true,"g":"&#60;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;100%&#34; height=&#34;100%&#34; preserveAspectRatio=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; class=&#34;&#34; fill=&#34;#000&#34;&#62; &#60;path d=&#34;M19,13H5V11H19V13Z&#34;&#62;&#60;/path&#62; &#60;/svg&#62;"},"ACCORDION_MENU44":{"a":"frame","cs":[{"dr":"action","dw":"ACCORDION_CONTENT43","dG":true,"a":"collapse"}]},"IMAGE88":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.facebook.com/qd.media.one","a":"link"}]},"IMAGE89":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.youtube.com/c/LavenderspaVn","a":"link"}]},"IMAGE90":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.instagram.com/lavenderbychang/","a":"link"}]},"IMAGE91":{"a":"image","cs":[{"dr":"action","dv":"_blank","dw":"https://www.tiktok.com/@lavender.by.chang","a":"link"}]},"COUNTDOWN_ITEM1":{"a":"countdown_item","bY":"day"},"COUNTDOWN_ITEM2":{"a":"countdown_item","bY":"hour"},"COUNTDOWN_ITEM3":{"a":"countdown_item","bY":"minute"},"COUNTDOWN_ITEM4":{"a":"countdown_item","bY":"seconds"},"COUNTDOWN1":{"a":"countdown","bX":"daily","bV":"00:00:00","bU":"23:59:59"},"BUTTON3":{"a":"button","F":"pulse","C":"1s"},"FORM_ITEM2":{"a":"form_item","bS":"text","bQ":1},"FORM_ITEM3":{"a":"form_item","bS":"tel","bQ":3},"FORM2":{"option.dynamic_form_config":"&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;text_thankyou_value&#34;:&#34;Cảm ơn anh/chị đã đăng ký! Tư vấn viên sẽ liên hệ lại với anh/chị ngay ạ!&#34;,&#34;type&#34;:&#34;form_show_popup_default&#34;,&#34;no_delete&#34;:true&#125;]&#125;","a":"form","bP":"624674514bbb65005b674edd","bM":true,"bF":"Lead","bE":"11022686482","bC":"l01qCL6giYIYEJKyg4gp","by":true,"bx":true,"F":"fadeIn","C":"0s"},"GROUP54":{"a":"group","E":"pulse","B":"1s"},"BOX23":{"a":"box","cs":[{"dr":"action","dv":"_blank","dw":"https://www.messenger.com/t/VientrangdaLavenderByChang","a":"link"}]},"GROUP57":{"a":"group","cs":[{"dw":"https://m.me/714006396075689","dr":"action","dv":"_blank","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","ay":"bottom_left","ap":"90px","ax":"bottom_right","ao":"10px","aD":true,"aw":"0px","at":"30px","an":"0px"},"BOX25":{"a":"box","cs":[{"dw":"0968191517","dr":"action","a":"phone"}]},"SHAPE19":{"a":"shape","cs":[{"dw":"0968191517","dr":"action","a":"phone"}],"F":"swing","C":"1s"},"GROUP59":{"a":"group","cs":[{"dw":"0968191517","dr":"action","a":"phone"}]},"HEADLINE149":{"a":"headline","cs":[{"dw":"0968191517","dr":"action","a":"phone"}]},"HEADLINE1491":{"a":"headline","cs":[{"dw":"0902777269","dr":"action","a":"phone"}]},"GROUP58":{"a":"group","cs":[{"dw":"0968191517","dr":"action","a":"phone"}],"GROUP581":{"a":"group","cs":[{"dw":"0902777269","dr":"action","a":"phone"}],"cm":"Call","cl":"11022686482","ck":"--OOCLugiYIYEJKyg4gp","as":"30px","ap":"30px","ar":"10px","ao":"10px","aD":true,"aA":"bottom_left","aw":"0px","an":"0px"},"BUTTON4":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/714006396075689","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"BUTTON5":{"a":"button","cs":[{"dr":"action","dv":"_blank","dw":"https://m.me/714006396075689","a":"link"}],"cm":"Chat","cl":"11022686482","ck":"QUkFCLigiYIYEJKyg4gp","F":"pulse","C":"1s"},"GROUP80":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP801":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP81":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP82":{"a":"group","E":"fadeInDown","B":"0s"},"GROUP83":{"a":"group","E":"fadeInDown","B":"0s"},"CAROUSEL42":{"a":"carousel","cN":2,"cG":"type_abab","H":"500px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"},"CAROUSEL47":{"a":"carousel","cN":2,"cG":"type_abab","H":"500px","G":"400px","cM":"2px","cJ":"horizontal","R":true,"O":5,"L":"1250px"}}</script>
     <script id="script_ladipage_run" type="text/javascript">
         (function () {
             var run = function () {
@@ -10718,6 +11077,42 @@
                 window.LadiPageScript.runEventScroll();
             }; run();
         })();</script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const carousel = document.getElementById('CAROUSEL1');
+            const carouselContent = carousel.querySelector('.ladi-carousel-content');
+            const arrowLeft = carousel.querySelector('.ladi-carousel-arrow-left');
+            const arrowRight = carousel.querySelector('.ladi-carousel-arrow-right');
+
+            // Mảng chứa các giá trị left tương ứng với các item chỉ định
+            const positions = [0, 352, 704, 1056, 1406];
+
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                const newLeft = -positions[currentIndex];
+                carouselContent.style.left = `${newLeft}px`;
+            }
+
+            arrowLeft.addEventListener("click", function () {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                } else {
+                    currentIndex = positions.length - 1; // Quay về cuối cùng khi đang ở đầu
+                }
+                updateCarousel();
+            });
+
+            arrowRight.addEventListener("click", function () {
+                if (currentIndex < positions.length - 1) {
+                    currentIndex++;
+                } else {
+                    currentIndex = 0; // Quay về đầu khi đang ở cuối
+                }
+                updateCarousel();
+            });
+        });
+    </script>
 </body>
 
 </html>
